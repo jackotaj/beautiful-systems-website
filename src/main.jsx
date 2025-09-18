@@ -7,6 +7,7 @@ import NeverMissed from './pages/NeverMissed.jsx'
 import ReviewRocket from './pages/ReviewRocket.jsx'
 import BeautifulReactivation from './pages/BeautifulReactivation.jsx'
 import BeautifulCRM from './pages/BeautifulCRM.jsx'
+import BookDemo from './pages/BookDemo.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/review-rocket" element={<ReviewRocket />} />
         <Route path="/beautiful-reactivation" element={<BeautifulReactivation />} />
         <Route path="/beautiful-crm" element={<BeautifulCRM />} />
+        <Route path="/book-demo" element={<BookDemo />} />
       </Routes>
     </Router>
   </StrictMode>,
