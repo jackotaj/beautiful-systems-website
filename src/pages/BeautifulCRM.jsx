@@ -32,13 +32,13 @@ const BeautifulCRM = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                <button className="bg-[#e01f80] text-white px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#c01a70] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                <a href="/book-demo" className="bg-[#e01f80] text-white px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#c01a70] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                   Get Beautiful CRM
                   <ArrowRight className="w-5 h-5" />
-                </button>
-                <button className="border-2 border-[#e01f80] text-[#e01f80] px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                </a>
+                <a href="/book-demo" className="border-2 border-[#e01f80] text-[#e01f80] px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                   See the CRM Tour
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -88,10 +88,10 @@ const BeautifulCRM = () => {
               </div>
             </div>
             <div className="text-center mt-12">
-              <button className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
+              <a href="/book-demo" className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
                 Get Beautiful CRM
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -121,9 +121,9 @@ const BeautifulCRM = () => {
               ))}
             </div>
             <div className="text-center mt-12">
-              <button className="border-2 border-[#e01f80] text-[#e01f80] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-colors">
+              <a href="/book-demo" className="border-2 border-[#e01f80] text-[#e01f80] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-colors">
                 See the CRM Tour
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -165,10 +165,10 @@ const BeautifulCRM = () => {
               </div>
             </div>
             <div className="text-center mt-12">
-              <button className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
+              <a href="/book-demo" className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
                 Get Beautiful CRM
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -218,9 +218,9 @@ const BeautifulCRM = () => {
             </div>
             <p className="text-2xl font-bold mt-16 text-[#e01f80]">One tool. One login. One source of truth.</p>
             <div className="text-center mt-12">
-              <button className="border-2 border-[#e01f80] text-[#e01f80] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-colors">
+              <a href="/book-demo" className="border-2 border-[#e01f80] text-[#e01f80] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-colors">
                 See the CRM Tour
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -323,10 +323,10 @@ const BeautifulCRM = () => {
               ))}
             </div>
             <div className="text-center mt-12">
-              <button className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
+              <a href="/book-demo" className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
                 Get Beautiful CRM
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </section>
