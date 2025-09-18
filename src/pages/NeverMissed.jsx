@@ -23,13 +23,13 @@ const NeverMissed = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
-                <a href="#checkout">
+                <a href="/book-demo">
                   Enable Never Missed AI
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white text-lg px-8 py-3" asChild>
-                <a href="#demo">Hear a Sample Call</a>
+                <a href="/book-demo">Hear a Sample Call</a>
               </Button>
             </div>
           </div>
@@ -107,7 +107,7 @@ const NeverMissed = () => {
             
             <div className="text-center mt-12">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
-                <a href="#checkout">
+                <a href="/book-demo">
                   Enable Never Missed AI
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
@@ -180,7 +180,7 @@ const NeverMissed = () => {
             
             <div className="text-center mt-12">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white text-lg px-8 py-3" asChild>
-                <a href="#demo">See the Dashboard</a>
+                <a href="/book-demo">See the Dashboard</a>
               </Button>
             </div>
           </div>
@@ -263,7 +263,7 @@ const NeverMissed = () => {
             
             <div className="text-center mt-8">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white text-lg px-8 py-3" asChild>
-                <a href="#demo">Hear a Sample Call</a>
+                <a href="/book-demo">Hear a Sample Call</a>
               </Button>
             </div>
           </div>
@@ -333,7 +333,7 @@ const NeverMissed = () => {
             
             <div className="text-center mt-12">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
-                <a href="#checkout">
+                <a href="/book-demo">
                   Enable Never Missed AI
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
@@ -398,7 +398,7 @@ const NeverMissed = () => {
             
             <div className="text-center mt-12">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white text-lg px-8 py-3" asChild>
-                <a href="#demo">See the Dashboard</a>
+                <a href="/book-demo">See the Dashboard</a>
               </Button>
             </div>
           </div>
@@ -477,7 +477,7 @@ const NeverMissed = () => {
             
             <div className="text-center mt-12">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white text-lg px-8 py-3" asChild>
-                <a href="#demo">Hear a Sample Call</a>
+                <a href="/book-demo">Hear a Sample Call</a>
               </Button>
             </div>
           </div>
@@ -501,7 +501,7 @@ const NeverMissed = () => {
             </p>
             
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
-              <a href="#checkout">
+              <a href="/book-demo">
                 Enable Never Missed
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
@@ -544,7 +544,7 @@ const NeverMissed = () => {
             
             <div className="text-center mt-12">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
-                <a href="#checkout">
+                <a href="/book-demo">
                   Get Never Missed AI
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
@@ -612,13 +612,13 @@ const NeverMissed = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-3" asChild>
-                <a href="#checkout">
+                <a href="/book-demo">
                   Enable Never Missed AI
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-3" asChild>
-                <a href="#demo">Hear a Sample Call</a>
+                <a href="/book-demo">Hear a Sample Call</a>
               </Button>
             </div>
           </div>
