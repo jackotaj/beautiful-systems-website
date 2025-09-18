@@ -21,7 +21,7 @@ function App() {
               <a href="#components" className="text-gray-600 hover:text-primary transition-colors">Components</a>
               <a href="#pricing" className="text-gray-600 hover:text-primary transition-colors">Pricing</a>
               <Button className="bg-primary hover:bg-primary/90" asChild>
-                <a href="#contact">Book a Strategy Call</a>
+                <a href="/book-demo">Book a Strategy Call</a>
               </Button>
             </div>
           </div>
@@ -47,13 +47,13 @@ function App() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
-              <a href="#contact">
+              <a href="/book-demo">
                 Book a Strategy Call
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-primary text-primary hover:bg-primary hover:text-white">
-              Activate My AI Employee
+            <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-primary text-primary hover:bg-primary hover:text-white" asChild>
+              <a href="/book-demo">Activate My AI Employee</a>
             </Button>
           </div>
           
@@ -754,18 +754,18 @@ function App() {
             <div>
               <h4 className="font-semibold mb-4">Solutions</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Book & Show AI</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Never Missed</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Review Rocket</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Beautiful Reactivation</a></li>
+                <li><a href="/book-show-ai" className="hover:text-white transition-colors">Book & Show AI</a></li>
+                <li><a href="/never-missed" className="hover:text-white transition-colors">Never Missed</a></li>
+                <li><a href="/review-rocket" className="hover:text-white transition-colors">Review Rocket</a></li>
+                <li><a href="/beautiful-reactivation" className="hover:text-white transition-colors">Beautiful Reactivation</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Platform</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Beautiful CRM</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Components</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
+                <li><a href="/beautiful-crm" className="hover:text-white transition-colors">Beautiful CRM</a></li>
+                <li><a href="#components" className="hover:text-white transition-colors">Components</a></li>
+                <li><a href="#pricing" className="hover:text-white transition-colors">Pricing</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">API</a></li>
               </ul>
             </div>
@@ -775,7 +775,7 @@ function App() {
                 <li><a href="#" className="hover:text-white transition-colors">About</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Results</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Resources</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+                <li><a href="/book-demo" className="hover:text-white transition-colors">Contact</a></li>
               </ul>
             </div>
           </div>
