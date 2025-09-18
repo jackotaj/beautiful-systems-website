@@ -258,44 +258,6 @@ const BeautifulReactivation = () => {
           </div>
         </section>
 
-        {/* Objections Section */}
-        <section className="py-20 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 text-center mb-16">
-              Objections handled
-            </h2>
-            <div className="space-y-8 max-w-4xl mx-auto">
-              {[
-                {
-                  objection: "We already followed up.",
-                  response: "Once. Months ago. Reactivation wins by timing and persistence. Not memory."
-                },
-                {
-                  objection: "We do not want to annoy people.",
-                  response: "Good. We throttle sends. Respect quiet hours. Use short messages with clear opt out. Response rates go up when you treat people like people."
-                },
-                {
-                  objection: "Will AI sound robotic?",
-                  response: "No. We start from human-written scripts. AI drafts short, plain English replies. You approve the voice."
-                },
-                {
-                  objection: "What if someone is angry?",
-                  response: "Negative replies route to a human instantly with a task and alert. You control refunds, credits, or service recovery."
-                },
-                {
-                  objection: "Do we need a special offer?",
-                  response: "Not always. A clear next step and a held time slot beat random discounts."
-                }
-              ].map((item, index) => (
-                <div key={index} className="bg-gray-50 p-8 rounded-2xl">
-                  <h3 className="text-xl font-bold text-[#e01f80] mb-4">"{item.objection}"</h3>
-                  <p className="text-lg text-gray-700">{item.response}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* Reporting Section */}
         <section className="py-20 bg-gray-50">
           <div className="max-w-6xl mx-auto px-6">
