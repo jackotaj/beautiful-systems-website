@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Users, MessageSquare, TrendingUp, Shield, Clock, Target, CheckCircle, AlertTriangle, Calendar, BarChart3, Zap, RefreshCw, Settings, DollarSign, Eye, GitMerge, Filter } from 'lucide-react';
+import { ArrowRight, Users, MessageSquare, TrendingUp, Shield, Clock, Target, CheckCircle, AlertTriangle, Calendar, BarChart3, Zap, RefreshCw, Settings, DollarSign, Eye, GitMerge, Filter, Sparkles } from 'lucide-react';
 import Layout from '../components/Layout';
 
 const BeautifulCRM = () => {
