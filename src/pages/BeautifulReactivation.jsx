@@ -36,13 +36,13 @@ const BeautifulReactivation = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                <button className="bg-[#e01f80] text-white px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#c01a70] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                <a href="/book-demo" className="bg-[#e01f80] text-white px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#c01a70] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                   Start a Reactivation Campaign
                   <ArrowRight className="w-5 h-5" />
-                </button>
-                <button className="border-2 border-[#e01f80] text-[#e01f80] px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                </a>
+                <a href="/book-demo" className="border-2 border-[#e01f80] text-[#e01f80] px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                   See Live Demo
-                </button>
+                </a>
               </div>
               
               {/* Trust Indicators */}
@@ -115,10 +115,10 @@ const BeautifulReactivation = () => {
               </div>
             </div>
             <div className="text-center mt-12">
-              <button className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
+              <a href="/book-demo" className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
                 Start a Reactivation Campaign
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -227,10 +227,10 @@ const BeautifulReactivation = () => {
               ))}
             </div>
             <div className="text-center mt-12">
-              <button className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
+              <a href="/book-demo" className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2 mx-auto">
                 Start a Reactivation Campaign
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -280,9 +280,9 @@ const BeautifulReactivation = () => {
               ))}
             </div>
             <div className="text-center mt-12">
-              <button className="border-2 border-[#e01f80] text-[#e01f80] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-colors">
+              <a href="/book-demo" className="border-2 border-[#e01f80] text-[#e01f80] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-colors">
                 See Live Demo
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -300,12 +300,12 @@ const BeautifulReactivation = () => {
               Messaging usage is billed at carrier rates. A2P registration and consent flows included.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-[#e01f80] px-12 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-colors">
+              <a href="/book-demo" className="bg-white text-[#e01f80] px-12 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-colors">
                 Start a Reactivation Campaign
-              </button>
-              <button className="border-2 border-white text-white px-12 py-4 rounded-lg text-xl font-bold hover:bg-white hover:text-[#e01f80] transition-colors">
+              </a>
+              <a href="/book-demo" className="border-2 border-white text-white px-12 py-4 rounded-lg text-xl font-bold hover:bg-white hover:text-[#e01f80] transition-colors">
                 See Live Demo
-              </button>
+              </a>
             </div>
           </div>
         </section>
