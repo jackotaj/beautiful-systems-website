@@ -186,35 +186,7 @@ const BeautifulReactivation = () => {
           </div>
         </section>
 
-        {/* Sample Plays Section */}
-        <section className="py-20 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 text-center mb-16">
-              Sample plays inside
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gray-50 p-8 rounded-2xl">
-                <h3 className="text-xl font-bold text-[#e01f80] mb-4">"Open project" nudge</h3>
-                <p className="text-gray-700 italic">"Still want help with X. I can hold Wednesday at 2 or 4. Works for you."</p>
-              </div>
-              <div className="bg-gray-50 p-8 rounded-2xl">
-                <h3 className="text-xl font-bold text-[#e01f80] mb-4">"Check-in" after first service</h3>
-                <p className="text-gray-700 italic">"How did Y go. Ready for the next step. I can get you on the calendar this week."</p>
-              </div>
-              <div className="bg-gray-50 p-8 rounded-2xl">
-                <h3 className="text-xl font-bold text-[#e01f80] mb-4">"Seasonal recall"</h3>
-                <p className="text-gray-700 italic">"It is that time again for Z. I can save you a trip. Want me to put you on Friday afternoon."</p>
-              </div>
-              <div className="bg-gray-50 p-8 rounded-2xl">
-                <h3 className="text-xl font-bold text-[#e01f80] mb-4">"VIP bounce-back"</h3>
-                <p className="text-gray-700 italic">"We are holding a few preferred slots for returning clients. Want one."</p>
-              </div>
-            </div>
-            <p className="text-center text-gray-600 mt-8 text-lg">
-              All scripts are editable. Your tone. Your rules.
-            </p>
-          </div>
-        </section>
+
 
         {/* Setup Section */}
         <section className="py-20 bg-gray-50">
@@ -263,23 +235,7 @@ const BeautifulReactivation = () => {
           </div>
         </section>
 
-        {/* The Math Section */}
-        <section className="py-20 bg-[#e01f80] text-white">
-          <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-12">The math</h2>
-            <div className="bg-white/10 p-8 rounded-2xl mb-8">
-              <div className="text-2xl md:text-3xl font-bold mb-6">
-                Reactivate 10 jobs at $200 each = $2,000
-              </div>
-              <div className="text-xl mb-4">
-                Subscription = $197 per month
-              </div>
-              <div className="text-xl opacity-90">
-                Even a small lift pays for itself many times over. If your average ticket is higher, the gap gets silly.
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         {/* Target Audience Section */}
         <section className="py-20 bg-gray-50">
