@@ -1,36 +1,68 @@
 import React from 'react';
 import { ArrowRight, Star, MessageSquare, TrendingUp, Shield, Clock, Target, CheckCircle, AlertTriangle } from 'lucide-react';
+import Layout from '../components/Layout';
 
 const ReviewRocket = () => {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-50 to-white py-20">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Review Rocket
-            </h1>
-            <p className="text-2xl md:text-3xl text-gray-700 mb-8 leading-relaxed">
-              <strong>Steal attention on Google. Stack 5-star proof. Get called first.</strong>
-            </p>
-            <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-              You do great work. Strangers do not know it. They trust stars. They trust recency. They trust volume.
-              <br /><br />
-              <strong>Review Rocket</strong> gets you all three without nagging staff or begging customers.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-[#e01f80] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#c01a70] transition-colors flex items-center justify-center gap-2">
-                Launch Review Rocket
-                <ArrowRight className="w-5 h-5" />
-              </button>
-              <button className="border-2 border-[#e01f80] text-[#e01f80] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-colors">
-                See Live Demo
-              </button>
+    <Layout>
+      <div className="min-h-screen bg-white">
+        {/* Hero Section */}
+        <section className="relative bg-gradient-to-br from-gray-50 via-white to-gray-50 py-20 overflow-hidden">
+          {/* Background Pattern */}
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute top-20 left-10 w-32 h-32 bg-[#e01f80] rounded-full blur-3xl"></div>
+            <div className="absolute top-40 right-20 w-24 h-24 bg-[#e01f80] rounded-full blur-2xl"></div>
+            <div className="absolute bottom-20 left-1/3 w-40 h-40 bg-[#e01f80] rounded-full blur-3xl"></div>
+          </div>
+          
+          <div className="max-w-6xl mx-auto px-6 relative">
+            <div className="text-center max-w-4xl mx-auto">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 bg-[#e01f80]/10 text-[#e01f80] px-4 py-2 rounded-full text-sm font-medium mb-8">
+                <Star className="w-4 h-4" />
+                Review Management System
+              </div>
+              
+              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+                Review Rocket
+              </h1>
+              <p className="text-2xl md:text-3xl text-gray-700 mb-8 leading-relaxed font-medium">
+                <strong>Steal attention on Google. Stack 5-star proof. Get called first.</strong>
+              </p>
+              <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+                You do great work. Strangers do not know it. They trust stars. They trust recency. They trust volume.
+                <br /><br />
+                <strong className="text-[#e01f80]">Review Rocket</strong> gets you all three without nagging staff or begging customers.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <button className="bg-[#e01f80] text-white px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#c01a70] transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  Launch Review Rocket
+                  <ArrowRight className="w-5 h-5" />
+                </button>
+                <button className="border-2 border-[#e01f80] text-[#e01f80] px-10 py-5 rounded-xl text-lg font-semibold hover:bg-[#e01f80] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  See Live Demo
+                </button>
+              </div>
+              
+              {/* Trust Indicators */}
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-gray-600">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-500" />
+                  <span>Google Compliant</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-blue-500" />
+                  <span>30-Day Guarantee</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Clock className="w-5 h-5 text-[#e01f80]" />
+                  <span>Setup in 1 Hour</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       {/* Big Promise Section */}
       <section className="py-20 bg-white">
@@ -179,29 +211,6 @@ const ReviewRocket = () => {
               See Live Demo
             </button>
           </div>
-        </div>
-      </section>
-
-      {/* Quick Math Section */}
-      <section className="py-20 bg-[#e01f80] text-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12">
-            Quick math you cannot ignore
-          </h2>
-          <div className="bg-white/10 p-8 rounded-2xl mb-8">
-            <div className="text-2xl md:text-3xl font-bold mb-6">
-              Two extra organic jobs a month at $500 each = $1,000
-            </div>
-            <div className="text-xl mb-4">
-              Review Rocket = $197
-            </div>
-            <div className="text-2xl font-bold">
-              You keep the spread every month after.
-            </div>
-          </div>
-          <p className="text-xl opacity-90">
-            If your average job is higher, the math gets silly fast.
-          </p>
         </div>
       </section>
 
@@ -413,7 +422,8 @@ const ReviewRocket = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </Layout>
   );
 };
 
