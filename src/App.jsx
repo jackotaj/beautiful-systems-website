@@ -122,9 +122,11 @@ function App() {
             <p className="text-lg text-gray-700 mb-8">
               <strong>Outcome:</strong> Faster response. Fewer no-shows. Higher show rates. Clear ROI.
             </p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              See It in Action
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <a href="/book-demo">
+                See It in Action
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>
@@ -159,8 +161,8 @@ function App() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto">
-                  Get Book & Show AI
+                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto" asChild>
+                  <a href="/book-demo">Get Book & Show AI</a>
                 </Button>
               </CardContent>
             </Card>
@@ -186,8 +188,8 @@ function App() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto">
-                  Enable Never Missed
+                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto" asChild>
+                  <a href="/book-demo">Enable Never Missed</a>
                 </Button>
               </CardContent>
             </Card>
@@ -213,8 +215,8 @@ function App() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto">
-                  Launch Review Rocket
+                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto" asChild>
+                  <a href="/book-demo">Launch Review Rocket</a>
                 </Button>
               </CardContent>
             </Card>
@@ -240,8 +242,8 @@ function App() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto">
-                  Launch Reactivation
+                <Button className="w-full bg-primary hover:bg-primary/90 mt-auto" asChild>
+                  <a href="/book-demo">Launch Reactivation</a>
                 </Button>
               </CardContent>
             </Card>
@@ -288,9 +290,11 @@ function App() {
           
           <div className="text-center">
             <p className="text-2xl font-bold text-gray-900 mb-6">Starting at $197/mo</p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Get Beautiful CRM
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <a href="/book-demo">
+                Get Beautiful CRM
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>
@@ -370,14 +374,17 @@ function App() {
                     <Button 
                       className="w-full bg-gradient-to-r from-primary via-primary to-primary/80 hover:from-primary/90 hover:via-primary/95 hover:to-primary/70 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group/btn relative overflow-hidden"
                       size="lg"
+                      asChild
                     >
-                      {/* Gradient sweep animation */}
-                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover/btn:translate-x-full transition-transform duration-700"></div>
-                      
-                      <span className="relative flex items-center justify-center">
-                        {component.cta}
-                        <ArrowRight className="ml-2 h-5 w-5 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                      </span>
+                      <a href="/book-demo">
+                        {/* Gradient sweep animation */}
+                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover/btn:translate-x-full transition-transform duration-700"></div>
+                        
+                        <span className="relative flex items-center justify-center">
+                          {component.cta}
+                          <ArrowRight className="ml-2 h-5 w-5 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                        </span>
+                      </a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -389,14 +396,17 @@ function App() {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary via-primary to-primary/80 hover:from-primary/90 hover:via-primary/95 hover:to-primary/70 text-white font-bold py-4 px-10 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-110 relative overflow-hidden group"
+              asChild
             >
-              {/* Gradient sweep animation */}
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-              
-              <span className="relative flex items-center">
-                See All Components in Action
-                <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
-              </span>
+              <a href="/book-demo">
+                {/* Gradient sweep animation */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+                
+                <span className="relative flex items-center">
+                  Explore All Components
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+                </span>
+              </a>
             </Button>
           </div>
         </div>
